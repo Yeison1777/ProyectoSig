@@ -219,4 +219,4 @@ STRIPE_SECRET_KEY = 'rk_test_51QVuWGCHs37kbJSi0ZRczmZhJA7fKTH7VwJOhA6GpAygpO7vtN
 STRIPE_WEBHOOK_SECRET = 'whsec_YwLbeecwzfB2YQLLmCHveVinCjUn9rP1'
 GOOGLE_MAPS_API_KEY='AIzaSyDT4RYNcUdQ6279kqNgHV1Tgn2d9biKKKY'
 # Configuración para archivos estáticos en producción
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = str(BASE_DIR / 'staticfiles')
