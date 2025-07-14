@@ -123,12 +123,12 @@ DATABASES = {
 
 
 
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "railway",  # Nombre de la DB en PostgreSQL
-        "USER": "postgres",  # Usuario de PostgreSQL
-        "PASSWORD": "CmYEwhpoSkpaClyjhrxMkdPbfXKdZtrG",  # Contraseña del usuario
-        "HOST": "metro.proxy.rlwy.net",  # IP si está en otro servidor
-        "PORT": "37869",
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',                      # Database name
+        'USER': 'postgres',                      # Database user
+        'PASSWORD': 'tGdByOkkAJzIVQEsNgFkfyBhSSSKaIgw',  # Database password
+        'HOST': 'hopper.proxy.rlwy.net',         # Database host
+        'PORT': '58293', 
     }
 }
 
